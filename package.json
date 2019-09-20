@@ -1,0 +1,33 @@
+{
+    "name": "jsoff-head",
+    "version": "1.0.0",
+    "company": "New Aura",
+    "author": "Wole Adenigbagbe",
+    "description": "dummy project to see if i have node js on my head",
+    "license": "ISC",
+    "keyword": [
+        "Node js",
+        "Express Js",
+        "Javascript"
+    ],
+    "repository": "https:wolecharles/github.com",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "bcrypt": "^3.0.6",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "mongoose": "^5.6.11",
+        "mongoose-unique-validator": "^2.0.3",
+        "run-rs": "^0.5.5"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.11"
+    },
+    "engines": {
+        "node": "10.x"
+    }
+}

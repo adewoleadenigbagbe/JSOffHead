@@ -68,14 +68,14 @@ module.exports = class OrderController {
             if(orders.length > 0){
                 return res.status(200).send({
                     responseCode : "00",
-                    orders : orders,
-                    message : "All Order retrieved"
+                    message : "All Order retrieved",
+                    orders : orders
                 });
             }
             return res.status(200).send({
                 responseCode : "00",
+                message : "Orders Empty",
                 orders : orders,
-                message : "Orders Empty"
             });
         })
         .catch((err) => {
